@@ -48,6 +48,8 @@ public class TestXLSB extends XSSFEventBasedExcelExtractor
     }
 
     public static void main(String[] args) throws Exception {
+    
+    System.out.println("Changes in GIT");
         if (args.length < 1) {
             System.err.println("Use:");
             System.err.println("  XSSFBEventBasedExcelExtractor <filename.xlsb>");
